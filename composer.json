@@ -1,5 +1,5 @@
 {
-  "name" : "testbundle/forum",
+  "name" : "testb undle/forum",
   "description" : "A demo bundle",
   "type" : "symfony-bundle",
   "authors" : [{
@@ -21,10 +21,5 @@
   },
   "target-dir" : "src/forum",
   "repositories" : [{
-  }],
-  "extra" : {
-    "branch-alias" : {
-      "dev-master" : "*"
-    }
-  }
+  }]
 }
