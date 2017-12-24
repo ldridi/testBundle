@@ -1,11 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: lotfidev
- * Date: 24/12/17
- * Time: 18:44
- */
-namespace App\forum\Controller;
+
+namespace Lotfi\Bundle\TestBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
