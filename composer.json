@@ -1,13 +1,13 @@
 {
-  "name" : "company/demobundle",
+  "name" : "testBundle/forum",
   "description" : "A demo bundle",
   "type" : "symfony-bundle",
   "authors" : [{
-    "name" : "demo",
+    "name" : "test",
     "email" : "demo@company.com"
   }],
   "keywords" : [
-    "demo bundle"
+    "test bundle"
   ],
   "license" : [
     "MIT"
@@ -16,15 +16,15 @@
   },
   "autoload" : {
     "psr-0" : {
-      "Company\\DemoBundle" : ""
+      "src\\Forum" : ""
     }
   },
-  "target-dir" : "Company/DemoBundle",
+  "target-dir" : "src/forum",
   "repositories" : [{
   }],
   "extra" : {
     "branch-alias" : {
-      "dev-master" : "some_version-dev"
+      "dev-master" : "*"
     }
   }
 }

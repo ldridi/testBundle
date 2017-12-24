@@ -5,7 +5,7 @@
  * Date: 24/12/17
  * Time: 18:44
  */
-namespace App\Forum\Controller;
+namespace App\forum\Controller;
 
 use Symfony\Component\HttpFoundation\Response;
 
