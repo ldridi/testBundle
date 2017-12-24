@@ -19,7 +19,7 @@
       "src\\Forum" : ""
     }
   },
-  "target-dir" : "src/forum",
+  "target-dir" : "",
   "repositories" : [{
   }]
 }
