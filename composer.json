@@ -1,25 +1,21 @@
 {
-  "name" : "testbundle/forum",
-  "description" : "A demo bundle",
-  "type" : "symfony-bundle",
-  "authors" : [{
-    "name" : "test",
-    "email" : "demo@company.com"
-  }],
-  "keywords" : [
-    "test bundle"
-  ],
-  "license" : [
-    "MIT"
-  ],
-  "require" : {
-  },
-  "autoload" : {
-    "psr-0" : {
-      "src\\Forum" : ""
+    "name": "testbundle",
+    "type": "forum-bundle",
+    "license": "MIT",
+    "keywords": [],
+    "authors": [
+        {
+            "name": "Dridi Lotfi",
+            "email": "lotfi.dev@gmail.com"
+        }
+    ],
+    "require": { },
+    "autoload": {
+        "psr-4": { "Lotfi\\Bundle\\TestBundle\\": "src/" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
     }
-  },
-  "target-dir" : "",
-  "repositories" : [{
-  }]
 }
