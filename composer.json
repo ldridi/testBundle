@@ -1,5 +1,5 @@
 {
-  "name" : "testb undle/forum",
+  "name" : "testbundle/forum",
   "description" : "A demo bundle",
   "type" : "symfony-bundle",
   "authors" : [{
